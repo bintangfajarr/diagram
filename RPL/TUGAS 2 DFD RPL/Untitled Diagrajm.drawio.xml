@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2022-03-21T15:42:04.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" version="17.1.3" etag="noXb2OTQkXZFfXh4Fna_" type="github"><diagram id="3q5soU29n982FYAm5KfR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-21T15:54:12.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="J2i25D3fH_RwTn6c8kwj" version="17.1.3" type="github">
+  <diagram id="3q5soU29n982FYAm5KfR" name="Page-1">
+    <mxGraphModel dx="269" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e2HbUXmY24wLUqhRODhi-1" value="Sistem Informasi Penyewaan DVD" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-2" value="1. peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-3" value="2.Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="e2HbUXmY24wLUqhRODhi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="180" as="sourcePoint" />
+            <mxPoint x="290" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-6" value="1.1 buat nota peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="e2HbUXmY24wLUqhRODhi-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="150" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="150" />
+              <mxPoint x="210" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-8" value="1.2 pembayaran peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="e2HbUXmY24wLUqhRODhi-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="sourcePoint" />
+            <mxPoint x="240" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="160" />
+              <mxPoint x="200" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-10" value="1.3 buat laporan peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="e2HbUXmY24wLUqhRODhi-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="170" as="sourcePoint" />
+            <mxPoint x="250" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="170" />
+              <mxPoint x="210" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-12" value="1.4 mencatat data peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-13" value="2.1 cek data kembali" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-14" value="2.2 menandai data peminjaman di buku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-15" value="2.3 buat laporan data peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-16" value="2.4 mencatat denda" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-17" value="2.5 pembayaran dan menandai data peminjaman di buku data peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-18" value="2.6 buat laporan" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.025;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="e2HbUXmY24wLUqhRODhi-3" target="e2HbUXmY24wLUqhRODhi-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="180" as="sourcePoint" />
+            <mxPoint x="650" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="140" />
+              <mxPoint x="650" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e2HbUXmY24wLUqhRODhi-3" target="e2HbUXmY24wLUqhRODhi-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="160" as="sourcePoint" />
+            <mxPoint x="613" y="248.58000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="150" />
+              <mxPoint x="660" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e2HbUXmY24wLUqhRODhi-3" target="e2HbUXmY24wLUqhRODhi-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="160" as="sourcePoint" />
+            <mxPoint x="610" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="160" />
+              <mxPoint x="670" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e2HbUXmY24wLUqhRODhi-3" target="e2HbUXmY24wLUqhRODhi-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="175" as="sourcePoint" />
+            <mxPoint x="610" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="170" />
+              <mxPoint x="680" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.643;exitDx=0;exitDy=0;entryX=1.012;entryY=0.63;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="e2HbUXmY24wLUqhRODhi-3" target="e2HbUXmY24wLUqhRODhi-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="175" as="sourcePoint" />
+            <mxPoint x="610" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="180" />
+              <mxPoint x="680" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2HbUXmY24wLUqhRODhi-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e2HbUXmY24wLUqhRODhi-3" target="e2HbUXmY24wLUqhRODhi-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609.76" y="168.58000000000004" as="sourcePoint" />
+            <mxPoint x="611.44" y="567.8" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="190" />
+              <mxPoint x="680" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
